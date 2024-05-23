@@ -13,7 +13,8 @@ export default function handler(req, res) {
       <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Chaves PIX de ${name}</title>
+        <title>PIX de ${name}</title>
+        <meta name="description" content="Clique aqui e selecione uma das minhas chaves PIX!">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
         <style>

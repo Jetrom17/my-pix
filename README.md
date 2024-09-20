@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div>
+  <h1>My PIX</h1>
+  <p>Projeto visa garantir a disponibilidade e flexibilidade de suas chaves PIX na hora de compartilhar.</p>
 
-## Getting Started
+  <h2>Como funciona?</h2>
+  <p>Você monta os parâmetros inserindo os valores desejados.</p>
+  <p><code>https://my-pix.vercel.app/api?name=&Telefone=&email=&cpf=&random=</code></p>
+  <p>Insira o seu nome após o sinal de igual: <code>?name=</code>João</p>
+  <p>Insira o seu número de telefone após o sinal de igual: <code>&Telefone=</code>123456789</p>
+  <p>Insira o seu email após o sinal de igual: <code>&email=</code>joao@example.com</p>
+  <p>Insira o seu CPF após o sinal de igual: <code>&cpf=</code>123.456.789-00</p>
+  <p>Insira um valor aleatório após o sinal de igual: <code>&random=</code>xyz123</p>
+  <p>Caso, não queira incluir ou não tenha uma das chaves PIX, não insira o parâmetro desejado (name, Telefone, email, cpf, random) na URL, apenas aos que vai usar. Se preferir "QR CODE", apenas acesse a rota substituindo meu email:</p>
+  <p><a href="https://my-pix.vercel.app/api/qrcode?qrcode=jeiel.lima.miranda@gmail.com" target="_blank" rel="noopener noreferrer">https://my-pix.vercel.app/api/qrcode?qrcode=jeiel.lima.miranda@gmail.com</a></p>
+  <p><code>api/qrcode?qrcode=</code>jeiel.lima.miranda@gmail.com</p>
 
-First, run the development server:
+  <h2>Garantido:</h2>
+  <ol>
+    <li>Segurança </li>
+    <li>Fácil acesso </li>
+    <li>Rápidez </li>
+    <li>Flexibilidade </li>
+  </ol>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+  <p>Assim ficará como exemplo a cima, experimente acessar:</p>
+  <p><a href="https://my-pix.vercel.app/api?name=Jo%C3%A3o&Telefone=123456789&email=joao@example.com&cpf=123.456.789-10&random=abc123" target="_blank" rel="noopener noreferrer">https://my-pix.vercel.app/api?name=Jo%C3%A3o&Telefone=123456789&email=joao@example.com&cpf=123.456.789-10&random=abc123</a></p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  <p>Se você gostou. Por favor, faça um PIX para minha conta:</p>
+  <p><a href="https://my-pix.vercel.app/api?name=Jeiel&email=jeiel.lima.miranda@gmail.com" target="_blank" rel="noopener noreferrer">https://my-pix.vercel.app/api?name=Jeiel&email=jeiel.lima.miranda@gmail.com</a></p>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<hr>
+<p>Para iniciar o desenvolvimento:</p>
+  <code>
+    npm run dev
+  </code>
+</div>

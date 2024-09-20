@@ -86,7 +86,7 @@
 
   <p>
     Se você gostou. Por favor, faça um PIX para minha conta:
-    <a href="https://my-pix.vercel.app/api?name=Jeiel&amp;email=jeiel.lima.miranda@gmail.com" target="_blank" rel="noopener noreferrer">
+    <a href="https://my-pix.vercel.app/view?name=Jeiel&email=jeiel.lima.miranda@gmail.com&random=a93ea08c-4239-44d8-8ffa-6a5687b1ed1c" target="_blank" rel="noopener noreferrer">
       https://my-pix.vercel.app/api?name=Jeiel&amp;email=jeiel.lima.miranda@gmail.com
     </a>
   </p>

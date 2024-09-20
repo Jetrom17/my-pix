@@ -1,3 +1,5 @@
+![](https://i.imgur.com/KUExNK6.png)
+
 <div>
   <h1>My PIX</h1>
   <p>
@@ -90,3 +92,11 @@
   </p>
   <br />
 </div>
+
+### Usando API Is.gd.
+
+https://is.gd/apishorteningreference.php
+
+Modelo:
+
+https://is.gd/create.php?format=simple&url=www.example.com.

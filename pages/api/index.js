@@ -5,7 +5,7 @@ export default async function handler(req, res) {
   const { name, Telefone, email, cpf, random } = query;
 
   // O domínio deve ser inserido manualmente ou obtido dinamicamente
-  const domain = 'https://special-barnacle-xx6vpwqxr5jfvjvv-3000.app.github.dev';
+  const domain = 'https://my-pix.vercel.app';
 
   // Gera a URL completa para a página estática
   const staticUrl = `${domain}/view?name=${encodeURIComponent(name)}&Telefone=${encodeURIComponent(Telefone)}&email=${encodeURIComponent(email)}&cpf=${encodeURIComponent(cpf)}&random=${encodeURIComponent(random)}`;
